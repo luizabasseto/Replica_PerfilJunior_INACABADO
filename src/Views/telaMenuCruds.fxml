@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="726.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TelaMenuCrudsController">
+   <children>
+      <ImageView fitHeight="407.0" fitWidth="732.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/5fb7524e-25bd-41e5-9778-453250a25516.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="btCrudJogador" layoutX="195.0" layoutY="203.0" mnemonicParsing="false" onAction="#abrirCrudJogador" prefHeight="45.0" prefWidth="153.0" style="-fx-background-color: black;" text="Crud Jogador" textFill="WHITE">
+         <font>
+            <Font name="Russo One" size="18.0" />
+         </font>
+         <effect>
+            <SepiaTone>
+               <input>
+                  <DropShadow>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </input>
+            </SepiaTone>
+         </effect>
+      </Button>
+      <Button fx:id="btCrudCarta" layoutX="165.0" layoutY="122.0" mnemonicParsing="false" onAction="#AbrirCrudCarta" prefHeight="45.0" prefWidth="128.0" style="-fx-background-color: black;" text="Crud Carta" textFill="WHITE">
+         <font>
+            <Font name="Russo One" size="18.0" />
+         </font>
+         <effect>
+            <SepiaTone>
+               <input>
+                  <DropShadow>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </input>
+            </SepiaTone>
+         </effect>
+      </Button>
+      <Button fx:id="btCrud_has_Dica" layoutX="261.0" layoutY="281.0" mnemonicParsing="false" onAction="#abrirCrud_has_Dica" prefHeight="45.0" prefWidth="226.0" style="-fx-background-color: black;" text="Crud Carta_has_dica" textFill="WHITE">
+         <font>
+            <Font name="Russo One" size="18.0" />
+         </font>
+         <effect>
+            <SepiaTone>
+               <input>
+                  <DropShadow>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </input>
+            </SepiaTone>
+         </effect>
+      </Button>
+      <Button fx:id="btCrudCategoria" layoutX="427.0" layoutY="201.0" mnemonicParsing="false" onAction="#abrirCrudCategoria" prefHeight="45.0" prefWidth="172.0" style="-fx-background-color: black;" text="Crud Categoria" textFill="WHITE">
+         <font>
+            <Font name="Russo One" size="18.0" />
+         </font>
+         <effect>
+            <SepiaTone>
+               <input>
+                  <DropShadow>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </input>
+            </SepiaTone>
+         </effect>
+      </Button>
+      <Button fx:id="btCrudDica" layoutX="458.0" layoutY="122.0" mnemonicParsing="false" onAction="#abrirCrudDica" prefHeight="45.0" prefWidth="119.0" style="-fx-background-color: black;" text="Crud Dica" textFill="WHITE">
+         <font>
+            <Font name="Russo One" size="18.0" />
+         </font>
+         <effect>
+            <SepiaTone>
+               <input>
+                  <DropShadow>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </DropShadow>
+               </input>
+            </SepiaTone>
+         </effect>
+      </Button>
+      <Button fx:id="btVoltarMenuPrincipal" layoutY="346.0" mnemonicParsing="false" onAction="#VoltarMenuPrincipal" style="-fx-background-color: black;" text="Voltar ao Menu" textFill="WHITE">
+         <font>
+            <Font name="Russo One" size="18.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+   </children>
+</Pane>

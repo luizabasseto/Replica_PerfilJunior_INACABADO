@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="335.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TelaFinalController">
+    <children>
+        <ImageView fitHeight="477.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Imagens/Steam%20Workshop__Aesthetic%20Pixel%20City.gif" />
+            </image>
+        </ImageView>
+        <Button fx:id="btMenuPrincipal" layoutX="213.0" layoutY="146.0" mnemonicParsing="false" onAction="#VoltarMenuPrincipal" style="-fx-background-color: black;" text="Menu Principal" textFill="WHITE">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Button>
+        <Button fx:id="btNovaPartida" layoutX="231.0" layoutY="211.0" mnemonicParsing="false" onAction="#VoltarPartida" style="-fx-background-color: black;" text="Nova Partida" textFill="WHITE">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Button>
+        <Button fx:id="btSair" layoutX="198.0" layoutY="268.0" mnemonicParsing="false" onAction="#SairTudo" style="-fx-background-color: black;" text="Sair e Fechar tudo" textFill="WHITE">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Button>
+        <Label layoutX="182.0" layoutY="35.0" prefHeight="62.0" prefWidth="237.0" style="-fx-background-color: BLACK;" text="GAME OVER" textFill="WHITE">
+            <font>
+                <Font size="42.0" />
+            </font>
+            <effect>
+                <Glow level="0.68">
+                    <input>
+                        <SepiaTone>
+                            <input>
+                                <DropShadow>
+                                    <input>
+                                        <Reflection>
+                                            <input>
+                                                <Lighting>
+                                                    <bumpInput>
+                                                        <Shadow />
+                                                    </bumpInput>
+                                                    <light>
+                                          
+                                                    </light>
+                                                </Lighting>
+                                            </input>
+                                        </Reflection>
+                                    </input>
+                                </DropShadow>
+                            </input>
+                        </SepiaTone>
+                    </input>
+                </Glow>
+            </effect>
+        </Label>
+    </children>
+</Pane>

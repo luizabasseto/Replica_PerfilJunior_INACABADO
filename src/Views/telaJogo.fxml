@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="773.0" prefWidth="1674.0" style="-fx-background-color: #63ccb4;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TelaJogoController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="520.0" layoutX="10.0" layoutY="41.0" stroke="BLACK" strokeType="INSIDE" width="280.0" />
+      <AnchorPane style="-fx-background-color: #63ccb4;" />
+      <Button id="dica_1" fx:id="btDica1" layoutX="71.0" layoutY="115.0" mnemonicParsing="false" onAction="#acao_dica1" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="1" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica2" layoutX="170.0" layoutY="115.0" mnemonicParsing="false" onAction="#acao_dica2" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="2" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica3" layoutX="30.0" layoutY="177.0" mnemonicParsing="false" onAction="#acao_dica3" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="3" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica4" layoutX="117.0" layoutY="177.0" mnemonicParsing="false" onAction="#acao_dica4" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="4" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica5" layoutX="205.0" layoutY="177.0" mnemonicParsing="false" onAction="#acao_dica5" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="5" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica6" layoutX="30.0" layoutY="239.0" mnemonicParsing="false" onAction="#acao_dica6" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="6" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica7" layoutX="117.0" layoutY="239.0" mnemonicParsing="false" onAction="#acao_dica7" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="7" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica8" layoutX="205.0" layoutY="239.0" mnemonicParsing="false" onAction="#acao_dica8" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="8" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica9" layoutX="30.0" layoutY="301.0" mnemonicParsing="false" onAction="#acao_dica9" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="9" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica10" layoutX="117.0" layoutY="301.0" mnemonicParsing="false" onAction="#acao_dica10" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="10" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica11" layoutX="205.0" layoutY="301.0" mnemonicParsing="false" onAction="#acao_dica11" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="11" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica12" layoutX="30.0" layoutY="364.0" mnemonicParsing="false" onAction="#acao_dica12" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="12" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica13" layoutX="117.0" layoutY="364.0" mnemonicParsing="false" onAction="#acao_dica13" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="13" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica14" layoutX="205.0" layoutY="364.0" mnemonicParsing="false" onAction="#acao_dica14" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="14" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica15" layoutX="30.0" layoutY="422.0" mnemonicParsing="false" onAction="#acao_dica15" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="15" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica16" layoutX="118.0" layoutY="422.0" mnemonicParsing="false" onAction="#acao_dica16" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="16" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica17" layoutX="205.0" layoutY="422.0" mnemonicParsing="false" onAction="#acao_dica17" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="17" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica18" layoutX="30.0" layoutY="483.0" mnemonicParsing="false" onAction="#acao_dica18" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="18" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica19" layoutX="117.0" layoutY="483.0" mnemonicParsing="false" onAction="#acao_dica19" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="19" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btDica20" layoutX="205.0" layoutY="484.0" mnemonicParsing="false" onAction="#acao_dica20" prefHeight="51.0" prefWidth="64.0" style="-fx-background-color: #2d9983;" text="20" textAlignment="CENTER" textFill="#dbfff5">
+         <font>
+            <Font name="Calisto MT Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="lbDicas" contentDisplay="TOP" layoutX="103.0" layoutY="52.0" text="Dicas" textAlignment="CENTER" textFill="#1d6354">
+         <font>
+            <Font name="Bernard MT Condensed" size="46.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Dicas" />
+         </tooltip>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="402.0" layoutX="313.0" layoutY="189.0" stroke="BLACK" strokeType="INSIDE" width="1313.0" />
+      <ImageView fx:id="imgAnimal" fitHeight="73.0" fitWidth="103.0" layoutX="364.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/feliz.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPessoa" fitHeight="73.0" fitWidth="103.0" layoutX="594.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/homem-aranha.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgLugar" fitHeight="73.0" fitWidth="103.0" layoutX="818.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/no-mundo-todo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCoisa" fitHeight="73.0" fitWidth="103.0" layoutX="1021.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/coisas-da-casa.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lbAnimal" contentDisplay="TOP" layoutX="364.0" layoutY="110.0" prefHeight="32.0" prefWidth="73.0" text="Animal" textAlignment="CENTER" textFill="#1d6354">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Começe escolhendo uma dica" />
+         </tooltip>
+      </Label>
+      <Label fx:id="lbPessoa" contentDisplay="TOP" layoutX="535.0" layoutY="107.0" prefHeight="32.0" prefWidth="203.0" text="Pessoa/personagem" textAlignment="CENTER" textFill="#1d6354">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Começe escolhendo uma dica" />
+         </tooltip>
+      </Label>
+      <Label fx:id="lbLugar" contentDisplay="TOP" layoutX="825.0" layoutY="106.0" prefHeight="32.0" prefWidth="61.0" text="Lugar" textAlignment="CENTER" textFill="#1d6354">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Começe escolhendo uma dica" />
+         </tooltip>
+      </Label>
+      <Label fx:id="lbCoisa" contentDisplay="TOP" layoutX="1031.0" layoutY="105.0" prefHeight="32.0" prefWidth="53.0" text="Coisa" textAlignment="CENTER" textFill="#1d6354">
+         <font>
+            <Font name="Bernard MT Condensed" size="25.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Começe escolhendo uma dica" />
+         </tooltip>
+      </Label>
+      <Label fx:id="lbResposta" contentDisplay="TOP" layoutX="319.0" layoutY="147.0" text="Resposta:" textAlignment="CENTER" textFill="#1d6354">
+         <font>
+            <Font name="Bernard MT Condensed" size="32.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Dicas" />
+         </tooltip>
+      </Label>
+      <TextField fx:id="tfResposta" layoutX="442.0" layoutY="150.0" prefHeight="32.0" prefWidth="155.0" />
+      <Button fx:id="btConferir" layoutX="617.0" layoutY="154.0" mnemonicParsing="false" onAction="#conferirResposta" prefHeight="25.0" prefWidth="92.0" style="-fx-background-color: #2d9983;" text="Conferir" textFill="#dbfff5">
+         <font>
+            <Font name="Mongolian Baiti" size="15.0" />
+         </font></Button>
+      <Label fx:id="lbDicaEscolhida" contentDisplay="TOP" layoutX="30.0" layoutY="589.0" text="Dica Escolhida:" textAlignment="CENTER" textFill="#1d6354">
+         <font>
+            <Font name="Bernard MT Condensed" size="33.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Dicas" />
+         </tooltip>
+      </Label>
+      <TextField id="dica_escolhida" fx:id="tfDicaEscolhida" editable="false" layoutX="40.0" layoutY="646.0" prefHeight="85.0" prefWidth="1091.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="314.0" layoutY="189.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="314.0" layoutY="290.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="314.0" layoutY="390.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="314.0" layoutY="491.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="415.0" layoutY="189.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="415.0" layoutY="290.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="415.0" layoutY="490.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="415.0" layoutY="390.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="516.0" layoutY="189.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="516.0" layoutY="290.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="516.0" layoutY="390.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="516.0" layoutY="491.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="617.0" layoutY="189.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="617.0" layoutY="290.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="617.0" layoutY="490.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="617.0" layoutY="390.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="719.0" layoutY="189.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="719.0" layoutY="290.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="719.0" layoutY="390.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="719.0" layoutY="491.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="820.0" layoutY="189.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="820.0" layoutY="290.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="820.0" layoutY="490.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="820.0" layoutY="390.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="921.0" layoutY="189.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="921.0" layoutY="290.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="921.0" layoutY="390.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="921.0" layoutY="491.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="1022.0" layoutY="189.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="1022.0" layoutY="290.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="1022.0" layoutY="490.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="1022.0" layoutY="390.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="1123.0" layoutY="189.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="1123.0" layoutY="290.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="1123.0" layoutY="390.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="1123.0" layoutY="491.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="1224.0" layoutY="189.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="1224.0" layoutY="290.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="1224.0" layoutY="490.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="1224.0" layoutY="390.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="1325.0" layoutY="189.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="1325.0" layoutY="290.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="1325.0" layoutY="390.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="1325.0" layoutY="491.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="1426.0" layoutY="189.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="1426.0" layoutY="290.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="1426.0" layoutY="490.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="1426.0" layoutY="390.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="1527.0" layoutY="189.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="1527.0" layoutY="290.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2d9983" height="100.0" layoutX="1527.0" layoutY="390.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <Rectangle accessibleRole="IMAGE_VIEW" arcHeight="5.0" arcWidth="5.0" fill="#dbfff5" height="100.0" layoutX="1527.0" layoutY="491.0" smooth="false" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" width="100.0" />
+      <ImageView fx:id="imgJogador1" fitHeight="101.0" fitWidth="73.0" layoutX="313.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/penhor%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgJogador2" fitHeight="101.0" fitWidth="73.0" layoutX="341.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/penhor.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="1541.0" layoutY="520.0" text="FINAL">
+         <font>
+            <Font name="Impact" size="34.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="73.0" layoutX="1194.0" layoutY="18.0" stroke="BLACK" strokeType="INSIDE" width="362.0" />
+      <Label fx:id="lbVezJogador" layoutX="1253.0" layoutY="33.0" text="VEZ DO JOGADOR 1!">
+         <font>
+            <Font name="Impact" size="34.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="73.0" layoutX="1194.0" layoutY="673.0" stroke="BLACK" strokeType="INSIDE" width="443.0" />
+      <Label fx:id="lbTema" layoutX="1224.0" layoutY="688.0" text="TEMA: LUGAR">
+         <font>
+            <Font name="Impact" size="34.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="73.0" layoutX="1194.0" layoutY="105.0" stroke="BLACK" strokeType="INSIDE" width="362.0" />
+      <Label fx:id="lbRespostaResultado" layoutX="1232.0" layoutY="117.0" text="Resposta:">
+         <font>
+            <Font name="Impact" size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="btSortear" layoutX="1266.0" layoutY="617.0" mnemonicParsing="false" onAction="#sortearCarta" style="-fx-background-color: #2d9983;" text="Sortear Nova Carta" textFill="#dbfff5">
+         <font>
+            <Font name="Mongolian Baiti" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
